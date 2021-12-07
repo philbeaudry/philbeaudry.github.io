@@ -43,8 +43,8 @@ function setup()
 
   // select filter
   const sel = createSelect();
-  const selectList = ['Spiderman Mask', 'Dog Filter']; // list of filters
-  sel.option('Select Filter', -1); // Default no filter
+  const selectList = ['Cheese']; // list of filters
+  sel.option('Cheese', 0); // Default no filter
   for (let i = 0; i < selectList.length; i++)
   {
     sel.option(selectList[i], i);
