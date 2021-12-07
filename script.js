@@ -15,8 +15,7 @@ let selected = -1; // Default no filter
 function preload()
 {
   // Spiderman Mask Filter asset
-  imgCheese
- = loadImage('cheese.png');
+  imgCheese = loadImage('cheese.png');
 
   // Dog Face Filter assets
 //   imgDogEarRight = loadImage("https://i.ibb.co/bFJf33z/dog-ear-right.png");
